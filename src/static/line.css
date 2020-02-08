@@ -1,0 +1,36 @@
+.line-wrap {
+  position: relative;
+  padding: 20px;
+}
+.tips {
+  position: absolute;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #222222;
+}
+.legend {
+  position: absolute;
+  right: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 10px;
+}
+.add-confirm::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #005dff;
+}
+.add-suspect::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 10px;
+  background-color: #f8d4a7;
+}

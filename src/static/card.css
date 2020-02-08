@@ -1,0 +1,77 @@
+.statistics .card {
+  width: 82px;
+  margin-right: 4px;
+  text-align: center;
+  flex: 1;
+  overflow: hidden;
+}
+.statistics .card:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.statistics .card:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.statistics .add {
+  padding-top: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7c7c7c;
+}
+.statistics .add span {
+  color: red;
+}
+.statistics .num {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: red;
+}
+.statistics .text {
+  font-size: 12px;
+  font-weight: 700;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+}
+.statistics .card.confirm {
+  background-color: #fdf1f1;
+}
+.statistics .card.confirm .add span,
+.statistics .card.confirm .num {
+  color: #F55253;
+}
+.statistics .card.confirm .text {
+  background-color: #ffe0e0;
+}
+
+.statistics .card.suspect {
+  background-color: #fff7ed;
+}
+.statistics .card.suspect .add span,
+.statistics .card.suspect .num {
+  color: #ff961e;
+}
+.statistics .card.suspect .text {
+  background-color: #ffeed9;
+}
+
+.statistics .card.cure {
+  background-color: #f1f8f4;
+}
+.statistics .card.cure .add span,
+.statistics .card.cure .num {
+  color: #178850;
+}
+.statistics .card.cure .text {
+  background-color: #dfeee6;
+}
+
+.statistics .card.dead {
+  background-color: #f8f8f8;
+}
+.statistics .card.dead .add span,
+.statistics .card.dead .num {
+  color: #66666c;
+}
+.statistics .card.dead .text {
+  background-color: #eeeeee;
+}

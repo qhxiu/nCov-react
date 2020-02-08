@@ -1,0 +1,31 @@
+.table {
+  font-size: 14px;
+}
+.table-header {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.province {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e9e9e9;
+}
+.table-header li,
+.item li {
+  flex: 1;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.province  div,
+.table-expand div  {
+  display: inline-block;
+  width: 20%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.province  {
+  padding: 5px 0;
+}
